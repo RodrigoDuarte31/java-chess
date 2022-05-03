@@ -8,6 +8,7 @@ public class ChessMatch {
 
 	public ChessMatch() {
 		board = new Board(8, 8);
+		initialSetup();
 	}
 
 	public ChessPiece[][] getPieces() {
@@ -18,6 +19,10 @@ public class ChessMatch {
 			}
 		}
 		return matrix;
+	}
+	
+	private void initialSetup() {
+		
 	}
 
 }
